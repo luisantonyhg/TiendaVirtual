@@ -26,3 +26,4 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/blog', 'BlogController@index')->name('blog');
 Route::get('/contactanos','ContactanosController@index')->name('contactanos');
 Route::get('/productos','ProductoController@index')->name('productos');
+Route::post('/contactanos','ContactanosController@contactanos')->name('contactanos');

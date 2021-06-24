@@ -29,26 +29,27 @@
             <hr>
             <hr>
             <hr>
-            <form>
+            <form action="{{route('contactanos')}}" method="POST">
+                @csrf
                 <div class="mb-3">
                   <label for="exampleInputEmail1" class="form-label"><strong>NOMBRE COMPLETO</strong></label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <input type="text" class="form-control" name="name" aria-describedby="emailHelp">
                 </div>
                 <div class="mb-3">
                     <label for="exampleInputEmail1" class="form-label"><strong>APELLIDO COMPLETO</strong></label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <input type="text" class="form-control" name="apellido" aria-describedby="emailHelp">
                   </div>
                 <div class="mb-3">
                   <label for="exampleInputPassword1" class="form-label"><strong>EMAIL</strong></label>
-                  <input type="password" class="form-control" id="exampleInputPassword1">
+                  <input type="text" class="form-control" name="email">
                 </div>
                 <div class="mb-3">
                     <label for="exampleInputPassword1" class="form-label"><strong>NUMERO CELULAR</strong></label>
-                    <input type="password" class="form-control" id="exampleInputPassword1">
+                    <input type="text" class="form-control" name="celular">
                   </div>
                 <div class="mb-3">
                     <label for="exampleInputPassword1" class="form-label"><strong>DISTRITO</strong></label>
-                    <input type="password" class="form-control" id="exampleInputPassword1">
+                    <input type="text" class="form-control" name="distrito">
                 </div>
                 <br>
                 <div class="mb-3 text-center">
