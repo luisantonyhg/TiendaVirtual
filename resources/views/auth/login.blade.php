@@ -2,19 +2,38 @@
 
 @section('badges')
 
-<div class="breadcrumb-area pt-65 pb-70 bg-img"
-    style="background-image:url({{asset('assets/img/luis6.jpg')}});">
-    <div class="container">
-        <div class="breadcrumb-wrap text-center">
-            <h3>Login</h3>
-            <ol class="breadcrumb breadcrumb-list">
-                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                <li class="breadcrumb-item"><a href="account.html">Account</a></li>
-                <li class="breadcrumb-item active">Login</li>
-            </ol>
+<style>
+    h3{
+        color: blue;
+        font: oblique bold 120% cursive;
+        border: 8px solid powderblue;
+    }
+    .login-form{
+        color: blue;
+        font: oblique bold 120% cursive;
+        border: 8px solid powderblue;
+    }
+
+
+</style>
+<div class="slider-area">
+    <div class="slider-activation owl-dot-style owl-carousel">
+    <div class="single-slider pt-165 pb-225 bg-img" style="background-image:url({{asset('assets/img/INICIO2.jpg')}});">
+            <div class="container">
+                <div class="slider-content slider-animated-1">
+                    <h1 class="first-h1 animated">"PROYECTO INTEGRADOR"</h1>
+                    <h1 class="second-h1 animated">*</h1>
+                </div>
+            </div>
+        </div>
+    <div class="single-slider pt-165 pb-225 bg-img" style="background-image:url({{asset('assets/img/INICIO1.jpg')}});">
+         
         </div>
     </div>
+    <div class="slide-item-number"></div>
 </div>
+
+
     
 @endsection
 
@@ -23,7 +42,8 @@
 
 <div class="login white-bg ptb-80">
     <div class="container">
-        <h3 class="login-header">Log in to your account </h3>
+        <h3 class="login-header text-center">"BIENVENIDO AL PROGRAMA VASO DE LECHE"</h3>
+        <h3 class="login-header text-center">El Programa del Vaso de Leche (PVL) es un programa social creado para proveer apoyo en la alimentación a través de la entrega de una ración diaria de alimentos a una población considerada vulnerable, con el propósito de ayudarla a elevar los niveles de nutrición en la población vulnerable de pobreza y extrema pobreza.</h3>
         <div class="row">
             <div class="col-lg-6 offset-lg-3">
                 <div class="login-form">
@@ -55,18 +75,15 @@
                                     <strong>{{ $message }}</strong>
                                 </span>
                                 @enderror
-                                <button class="btn show-btn" type="button">Show</button>
                             </div>
                         </div>
                     
                         <div class="login-details text-center mb-25">
-                            <a href="forgot-password.html">Forgot your password? </a>
-                            <button type="submit" class="login-btn">Sign in</button>
+                        
+                            <button type="submit" class="btn-success">Ingresar</button>
                         </div>
                     
-                        <div class="login-footer text-center">
-                            <p>No account? <a href="register.html">Create one here</a></p>
-                        </div>
+                      
                     
                     </form>
 

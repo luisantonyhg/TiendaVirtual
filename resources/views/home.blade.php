@@ -4,24 +4,19 @@
 
 <div class="slider-area">
     <div class="slider-activation owl-dot-style owl-carousel">
-    <div class="single-slider pt-165 pb-225 bg-img" style="background-image:url({{asset('assets/img/luis2.jpg')}});">
-            <div class="container">
+    <div class="single-slider pt-165 pb-225 bg-img" style="background-image:url({{asset('assets/img/INICIO2.jpg')}});">
+            <div class="container-fluid">
                 <div class="slider-content slider-animated-1">
-                    <h1 class="first-h1 animated">VENTA DE ROPA MARICOS</h1>
-                    <h1 class="second-h1 animated">TU EMPRESARIO HUAMANCULI</h1>
-                    <h1 class="third-h1 animated">N! PARA CONTRATOS</h1>
-                    <h3 class="animated">36 MIL SOLES <span>Full Package </span></h3>
-                    <div class="slider-btn mt-75">
-                        <a class="animated" href="product-details.html">Shop Now </a>
-                        <i class="animated icon-right-arrow"></i>
-                    </div>
-                    <div class="slider-single-img-1">
+                    <h1 class="first-h1 animated">"PROGRAMA DE VASO DE LECHE"</h1>
+                    <h1 class="second-h1 animated">"PAGINA WEB" </h1>
+                    {{-- <h1 class="third-h1 animated">N! PARA CONTRATOS</h1> --}}
+                    {{-- <div class="slider-single-img-1">
                     <img class="animated" alt="categorie-img" src="{{asset('assets/img/luis4.jpg')}}">
-                    </div>
+                    </div> --}}
                 </div>
             </div>
         </div>
-    <div class="single-slider pt-165 pb-225 bg-img" style="background-image:url({{asset('assets/img/luis3.png')}});">
+    <div class="single-slider pt-165 pb-225 bg-img" style="background-image:url({{asset('assets/img/INICIO1.jpg')}});">
             <div class="container">
                 <div class="slider-content slider-animated-2">
                     <h1 class="first-h1 animated">New Exprience</h1>
@@ -108,16 +103,14 @@
                         </div>
                     </div>
                 </div>
-                <!-- Single Support End -->
+               
             </div>
         </div>
     </div>
 </div>
-<!-- Online Support Area End Here -->
-<!-- Our Categorie Two Start Here -->
+
 <div class="our-categorie-two pt-80">
     <div class="coustom-container">
-        <!-- Single Image Categorie Activation Start -->
         <div class="single-img-categorie-active owl-carousel">
             <div class="single-img-categorie">
             <a href="#"><img src="{{asset('assets/img/luis5.jpg')}}" alt="categorie-img"></a>
@@ -138,36 +131,36 @@
                 </div>
             </div>
             <div class="single-img-categorie">
+                <a href="#"><img src="{{asset('assets/img/luis5.jpg')}}" alt="categorie-img"></a>
+                <div class="single-cat-desc">
+                    <a href="#">t-shirt</a>
+                </div>
+            </div>
+            {{-- <div class="single-img-categorie">
                 <a href="#"><img src="{{asset('assets/img/banner/hop-banner-10.jpg')}}" alt="categorie-img"></a>
                 <div class="single-cat-desc">
                     <a href="#">cap</a>
                 </div>
-            </div>
-            <div class="single-img-categorie">
+            </div> --}}
+            {{-- <div class="single-img-categorie">
                 <a href="#"><img src="{{asset('assets/img/banner/hop-banner-8.jpg')}}" alt="categorie-img"></a>
                 <div class="single-cat-desc">
                     <a href="#">bag</a>
                 </div>
-            </div>
+            </div> --}}
         </div>
-        <!-- Single Image Categorie Activation End -->
     </div>
 </div>
-<!-- Our Categorie Two End Here -->
-<!-- Best Seller Product Area Start Here -->
+
 <div class="Products-area-wrapper pt-80 pb-87">
     <div class="container">
-        <!-- Section Title Start -->
         <div class="section-title text-center mb-45">
             <h2>Shopping Products</h2>
             <p>Voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
         </div>
-        <!-- Section Title End -->
-        <!-- Second Featured Product Activation Start -->
         <div class="Products-area">
             <div class="row">
                 <div class="col-lg-4 col-xl-3 col-md-6 col-sm-6">
-                    <!-- Single Product Start -->
                     <div class="single-aboss-product mb-3">
                         <div class="pro-img">
                         <a href="product-details.html"><img src="{{asset('assets/img/products/p1.jpg')}}" alt=""></a>
@@ -189,10 +182,8 @@
                             </div>
                         </div>
                     </div>
-                    <!-- Single Product End -->
                 </div>
                 <div class="col-lg-4 col-xl-3 col-md-6 col-sm-6">
-                    <!-- Single Product Start -->
                     <div class="single-aboss-product mb-3">
                         <div class="pro-img">
                             <a href="product-details.html"><img src="{{asset('assets/img/products/p2.jpg')}}" alt=""></a>
@@ -214,10 +205,8 @@
                             </div>
                         </div>
                     </div>
-                    <!-- Single Product End -->
                 </div>
                 <div class="col-lg-4 col-xl-3 col-md-6 col-sm-6">
-                    <!-- Single Product Start -->
                     <div class="single-aboss-product mb-3">
                         <div class="pro-img">
                             <a href="product-details.html"><img src="{{asset('assets/img/products/p3.jpg')}}" alt=""></a>
@@ -239,10 +228,8 @@
                             </div>
                         </div>
                     </div>
-                    <!-- Single Product End -->
                 </div>
                 <div class="col-lg-4 col-xl-3 col-md-6 col-sm-6">
-                    <!-- Single Product Start -->
                     <div class="single-aboss-product mb-3">
                         <div class="pro-img">
                             <a href="product-details.html"><img src="{{asset('assets/img/products/p4.jpg')}}" alt=""></a>
@@ -393,7 +380,7 @@
 <div class="best-seller-area pt-80 pb-90">
     <div class="container">
         <div class="section-title text-center mb-45">
-            <h2>Best Seller</h2>
+            <h2>"APOYO DE VASO DE LECHE"</h2>
             <p>Voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
         </div>
         <div class="best-seller-active owl-carousel">
@@ -408,13 +395,13 @@
                 <div class="pro-content">
                     <h4><a href="product-details.html">Dorji bari East Long Style</a></h4>
                     <div class="pro-price-cart">
-                        <div class="pro-home-price">
+                        {{-- <div class="pro-home-price">
                             <span>$199.99</span>
                         </div>
                         <div class="pro-cart">
                             <a title="Add To Cart" href="#"><i class="icon-cart"></i></a>
                             <a title="Wishlist" href="#"><i class="icon-like"></i></a>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
             </div>
@@ -429,13 +416,13 @@
                 <div class="pro-content">
                     <h4><a href="product-details.html">Dorji bari East Long Style</a></h4>
                     <div class="pro-price-cart">
-                        <div class="pro-home-price">
+                        {{-- <div class="pro-home-price">
                             <span>$245.10</span>
                         </div>
                         <div class="pro-cart">
                             <a title="Add To Cart" href="#"><i class="icon-cart"></i></a>
                             <a title="Wishlist" href="#"><i class="icon-like"></i></a>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
             </div>
@@ -450,13 +437,13 @@
                 <div class="pro-content">
                     <h4><a href="product-details.html">Dorji bari East Long Style</a></h4>
                     <div class="pro-price-cart">
-                        <div class="pro-home-price">
+                        {{-- <div class="pro-home-price">
                             <span>$400.45</span>
                         </div>
                         <div class="pro-cart">
                             <a title="Add To Cart" href="#"><i class="icon-cart"></i></a>
                             <a title="Wishlist" href="#"><i class="icon-like"></i></a>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
             </div>
@@ -471,13 +458,13 @@
                 <div class="pro-content">
                     <h4><a href="product-details.html">Dorji bari East Long Style</a></h4>
                     <div class="pro-price-cart">
-                        <div class="pro-home-price">
+                        {{-- <div class="pro-home-price">
                             <span>$199.99</span>
                         </div>
                         <div class="pro-cart">
                             <a title="Add To Cart" href="#"><i class="icon-cart"></i></a>
                             <a title="Wishlist" href="#"><i class="icon-like"></i></a>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
             </div>
@@ -492,13 +479,13 @@
                 <div class="pro-content">
                     <h4><a href="product-details.html">Dorji bari East Long Style</a></h4>
                     <div class="pro-price-cart">
-                        <div class="pro-home-price">
+                        {{-- <div class="pro-home-price">
                             <span>$200.00</span>
                         </div>
                         <div class="pro-cart">
                             <a title="Add To Cart" href="#"><i class="icon-cart"></i></a>
                             <a title="Wishlist" href="#"><i class="icon-like"></i></a>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
             </div>
@@ -513,44 +500,18 @@
                 <div class="pro-content">
                     <h4><a href="product-details.html">Dorji bari East Long Style</a></h4>
                     <div class="pro-price-cart">
-                        <div class="pro-home-price">
+                        {{-- <div class="pro-home-price">
                             <span>$427.99</span>
                         </div>
                         <div class="pro-cart">
                             <a title="Add To Cart" href="#"><i class="icon-cart"></i></a>
                             <a title="Wishlist" href="#"><i class="icon-like"></i></a>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
-<!-- Bradn Area Start Here -->
-<div class="brand pb-90">
-    <div class="container">
-        <!-- Brand Logo Active Start Here -->
-        <div class="brand-logo-active brand-brown-color owl-carousel ptb-80 border-top border-bottom">
-            <div class="single-brand">
-                <a href="#"><img src="{{asset('assets/img/brand/brand-1.png')}}" alt="brand-image"></a>
-            </div>
-            <div class="single-brand">
-                <a href="#"><img src="{{asset('assets/img/brand/brand-2.png')}}" alt="brand-image"></a>
-            </div>
-            <div class="single-brand">
-                <a href="#"><img src="{{asset('assets/img/brand/brand-3.png')}}" alt="brand-image"></a>
-            </div>
-            <div class="single-brand">
-                <a href="#"><img src="{{asset('assets/img/brand/brand-4.png')}}" alt="brand-image"></a>
-            </div>
-            <div class="single-brand">
-                <a href="#"><img src="{{asset('assets/img/brand/brand-5.png')}}" alt="brand-image"></a>
-            </div>
-            <div class="single-brand">
-                <a href="#"><img src="{{asset('assets/img/brand/brand-2.png')}}" alt="brand-image"></a>
-            </div>
-        </div>
-        <!-- Brand Logo Active End Here -->
-    </div>
-</div>
+
 @endsection

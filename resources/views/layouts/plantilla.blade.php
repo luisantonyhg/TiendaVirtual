@@ -72,15 +72,13 @@
             <div class="coustom-container">
                 <div class="main-header">
                     <div class="row">
-                        <!-- Logo Start Here -->
+                  
                         <div class="col-xl-2 col-lg-3 col-md-5 col-sm-6 col-5">
                             <div class="logo">
-                                <a href="index.html"><img src="{{asset('assets/img/logo/logo.png')}}"
-                                        alt="brand-image"></a>
+                                <a href="{{route('home')}}"><img src="{{asset('assets/img/logovaso.jpg')}}"
+                                         width="90" height="90"></a>
                             </div>
                         </div>
-                        <!-- Logo End Here -->
-                        <!-- Header Menu & Cart Area Start Here -->
                         <div class="col-xl-7 col-lg-6 d-none d-lg-block">
                             <div class="maain-menu-area maain-menu-area-three  position-relative pl-155">
                                 <!-- Primary Menu Start -->
@@ -91,18 +89,16 @@
 
                                             </li>
 
-                                            <li>
+                                            {{-- <li>
                                                 <a href="{{ route('blog')}}">Blog</a>
 
-                                            </li>
-                                            <li><a href="{{route ('productos')}}">Productos</a>
+                                            </li> --}}
+                                            {{-- <li><a href="{{route ('productos')}}">Productos</a>
 
-                                            </li>
+                                            </li> --}}
                                             <li><a href="{{route('contactanos')}}">Contactanos</a></li>
 
-                                            <li><a href="{{route('login')}}">login</a>
-
-                                            </li>
+                                            {{-- <li><a href="{{route('login')}}">Inicio</a></li> --}}
 
                                             <li><a href="{{route('register')}}">Registrate</a>
                                             </li>
@@ -114,8 +110,13 @@
                                             <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
                                                 @csrf
                                             </form></li>
+                                            <div class="logo">
+                                                <a href="{{route('home')}}"><img src="{{asset('assets/img/auto3.svg')}}"
+                                                         width="120" height="120"></a>
+                                            </div>
 
                                         </ul>
+                                       
 
 
                                     </nav>
@@ -126,6 +127,7 @@
                         
 
                     </div>
+                   
                     {{-- <!-- Mobile Menu Start -->
                     <div class="mobile-menu d-block d-lg-none">
                         <nav>
@@ -223,7 +225,16 @@
 
 
         <!-- PIE DE PAGINA-->
-        <footer class="footer-area bg-img footer-white-color">
+        <footer>
+            <div class="footer-bottom">
+                <div class="container">
+                    <div class="copyright text-center">
+                        <p>Copyright ©</a>"Alumno de Alumno Autonoma del Peru"</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        {{-- <footer class="footer-area bg-img footer-white-color">
             <div class="footer-top bg-img pt-82 pb-50"
                 style="background-image:url({{asset('assets/img/bg-image/footer-bg-2.jpg')}});">
                 <div class="container">
@@ -338,7 +349,7 @@
                     </div>
                 </div>
             </div>
-        </footer>
+        </footer> --}}
 
 
         {{-- MODALS --}}
